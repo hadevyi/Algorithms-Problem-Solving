@@ -1,36 +1,26 @@
 # Baekjoon_Algorithm
-### 백준 단계별 문제 풀이
 
-### <개요>
+Step-by-step problem solving
+
+<div align="right">
+<a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/eona1301/Baekjoon_Algorithm"/></a>
+</div>
 
 - Language : C++
 - Tool : Visual Stdio 2017
-- 보다 효율적인 코드 작성을 위한 연습으로 Basekjoon의 단계별 문제를 기준으로 풀이하고 있습니다.
 
 ---
 
-### <내용>
+## Progress Completion List
 
-### 01. IO calculation - 입출력과 사칙연산
+| Order |        Title        |                         Question                          | Number |
+| :---: | :-----------------: | :-------------------------------------------------------: | :----: |
+|  01   | I/O and Calculation |     I/O function, operations(add/sub/mul/div/remain)      |   11   |
+|  02   |         if          | grade calculation, leap year, quadrant check, alarm clock |   5    |
+|  03   |         for         |           multiplication, sum to n, star-taking           |   11   |
+|  04   |        while        |                   when True, plus cycle                   |   3    |
+|  05   |      1D Array       |               Min/Max, Number Count, remain               |   6    |
+|   .   |                     |                                                           |        |
+|  99   |       Before        |         The problems that were included in order          |   6    |
 
-: 입출력 함수 활용, 기본 사칙연산(덧셈, 뺄셈, 곱하기, 나누기, 나머지)
-
-### 02. if문
-
-:  두수 비교, 성적 산출, 윤년판단, 사분면 판정, 알람 시계
-
-### 03. for문
-
-:  구구단, n까지의 합 및 출력, 별 찍기
-
-### 04. while문
-
-: while True문, 더하기 사이클
-
-### 05. 실습
-
-: 평균 점수, 비교 후 특정 값 출력
-
-### 06. 1차원 배열 (-ing)
-
-: 최소/최대값 구하기, 최대 인덱스, 숫자 카운팅, 나머지, 
+<b>(Based on 2020-10-24)</b>
