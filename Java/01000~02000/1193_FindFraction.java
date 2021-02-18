@@ -8,21 +8,17 @@ public class FindFraction_1193 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int X = Integer.parseInt(br.readLine());
 		int i = 1, j = 1, dir = 1;
+
 		for (int x = 1; x < X; x++) {
-			if (dir == 1) {
-				i--;
-				j++;
-				if (i < 1) {
-					dir = -1;
-					i = 1;
-				}
-			} else {
-				i++;
-				j--;
-				if (j < 1) {
-					dir = 1;
-					j = 1;
-				}
+			i -= dir;
+			j += dir;
+			
+			if (i < 1) {
+				dir = -1;
+				i = 1;
+			} else if (j < 1) {
+				dir = 1;
+				j = 1;
 			}
 		}
 		System.out.println(i + "/" + j);
