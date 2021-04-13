@@ -1,8 +1,6 @@
-package com.beakjoon;
-
 import java.util.Scanner;
 
-public class Question_17478 {
+public class Main {
 	static int  N;
 
 	public static void main(String[] args) {
