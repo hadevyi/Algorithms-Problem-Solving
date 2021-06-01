@@ -1,2 +1,1 @@
-# JUNGOL_Altorithm
-[Algorithm] Solve algorithm question.
+# 정올 알고리즘 풀이
