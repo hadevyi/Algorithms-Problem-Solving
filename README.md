@@ -1,7 +1,7 @@
 # Algorithms Problem Solving
 
-<div align="right"><a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url="/></a></div>
-https://github.com/eona1301/Algorithms-Problem-Solving
+<div align="right"><a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/eona1301/Algorithms-Problem-Solving"/></a></div>
+
 <br>
 
 > 신입 개발자로 취업을 위해, 또 이직을 위해 알고리즘을 준비하는 분이 많을 겁니다. 네, 저도 한명이에요. 하루도 빼놓지 않고 매일하는 것은 힘들어도 최대한 꾸준히 하도록 노력해볼 예정입니다.<br>
