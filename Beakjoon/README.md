@@ -5,9 +5,7 @@
 <br>
 <div align="center">
 
-[![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=dang0113)](https://solved.ac/dang0113)
 [![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=dang0113)](https://solved.ac/dang0113)
-[![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=dang0113)](https://solved.ac/dang0113)
 
 </div>
 <br>
