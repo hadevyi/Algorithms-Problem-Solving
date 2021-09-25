@@ -27,9 +27,9 @@
 + 코드 : 해당 `레포지토리`에 각 사이트별, 문제 번호(오름차순)로 정리합니다.
 + 설명 : `기술블로그`에 사이트별 및 문제별 상세로 정리합니다.
   + Jungol A to Z | Jungol 풀이
-  + [Beakjoon A to Z](https://eona1301.github.io/a_to_z/BeakjoonSolution/) | [Beakjoon 풀이](https://eona1301.github.io/categories/#beakjoon)
+  + [Beakjoon A to Z](https://velog.io/@eona1301/Baekjoon-Algorithms-Solution) | [Beakjoon 풀이](https://velog.io/@eona1301/series/Beakjoon)
   + Programmers A to Z | Programmers 풀이
-  + [SW Expert Academy A to Z](https://eona1301.github.io/a_to_z/SWEASolution/) | SW Expert Academy 풀이
+  + [SW Expert Academy A to Z](https://velog.io/@eona1301/SW-Expert-Academy-Algorithms-Solution) | SW Expert Academy 풀이
 + 리스트업 : `Notion`에 각 사이트별로 문제 진행 유무, 업데이트 등의 유무를 정리합니다.
   + [Jungol](https://www.notion.so/danghyeona/56ece90b98f146498cb421f745321eae?v=b02930e57e144792a38acdb99720e5c9) | [Beakjoon](https://www.notion.so/danghyeona/5e06598a19f84ff691c9f948c3e32787?v=b917204e141f46ff97b25cc0cdd3ae35) | Programmers | [SW Expert Academy](https://www.notion.so/danghyeona/39f697effdc74c9c9a235bbf1ba9f48a?v=b11284d0630b4a5ba53c9959d7281cbb)
 
