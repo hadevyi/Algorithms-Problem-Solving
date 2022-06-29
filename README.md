@@ -16,7 +16,7 @@
 ## 💻 문제 사이트
 > 실제 필자가 주니어 취업준비를 하면서 열람할 사이트입니다. 알고리즘 사이트는 더 다양히 있습니다.
 
-1. [Beakjoon](https://www.acmicpc.net/)
+1. [Baekjoon](https://www.acmicpc.net/)
 2. [Programmers](https://programmers.co.kr/)
 3. [SW Expert Academy](https://swexpertacademy.com/main/main.do)
 
@@ -26,11 +26,11 @@
 
 + 코드 : 해당 `레포지토리`에 각 사이트별, 문제 번호(오름차순)로 정리합니다.
 + 설명 : `기술블로그`에 사이트별 및 문제별 상세로 정리합니다.
-  + [Beakjoon A to Z](https://github.com/eona1301/Algorithms-Problem-Solving/wiki/2.0-Baekjoon) | [Beakjoon 풀이](https://velog.io/@eona1301/series/Beakjoon)
+  + [Baekjoon A to Z](https://github.com/eona1301/Algorithms-Problem-Solving/wiki/2.0-Baekjoon) | [Baekjoon 풀이](https://velog.io/@eona1301/series/Beakjoon)
   + Programmers A to Z | Programmers 풀이
   + SW Expert Academy A to Z | SW Expert Academy 풀이
 + 리스트업 : `Notion`에 각 사이트별로 문제 진행 유무, 업데이트 등의 유무를 정리합니다.
-  + Beakjoon | Programmers | SW Expert Academy
+  + Baekjoon | Programmers | SW Expert Academy
 
 <br>
 
