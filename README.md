@@ -28,7 +28,7 @@
 + 설명 : `기술블로그`에 사이트별 및 문제별 상세로 정리합니다.
   + [Baekjoon A to Z](https://github.com/eona1301/Algorithms-Problem-Solving/wiki/2.0-Baekjoon) | [Baekjoon 풀이](https://velog.io/@eona1301/series/Beakjoon)
   + Programmers A to Z | Programmers 풀이
-  + SW Expert Academy A to Z | SW Expert Academy 풀이
+  + SW Expert Academy A to Z | [SW Expert Academy 풀이](https://velog.io/@eona1301/series/SW-Expert-Academy)
 + 리스트업 : `Notion`에 각 사이트별로 문제 진행 유무, 업데이트 등의 유무를 정리합니다.
   + Baekjoon | Programmers | SW Expert Academy
 
