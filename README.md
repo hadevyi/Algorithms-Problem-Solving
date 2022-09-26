@@ -29,8 +29,6 @@
   + [Baekjoon A to Z](https://github.com/eona1301/Algorithms-Problem-Solving/wiki/2.0-Baekjoon) | [Baekjoon 풀이](https://velog.io/@eona1301/series/Beakjoon)
   + Programmers A to Z | [Programmers 풀이](https://velog.io/@eona1301/series/Programmers)
   + [SW Expert Academy A to Z](https://velog.io/@eona1301/SW-Expert-Academy-Algorithms-Solution) | [SW Expert Academy 풀이](https://velog.io/@eona1301/series/SW-Expert-Academy)
-+ 리스트업 : `Notion`에 각 사이트별로 문제 진행 유무, 업데이트 등의 유무를 정리합니다.
-  + Baekjoon | Programmers | SW Expert Academy
 
 <br>
 
