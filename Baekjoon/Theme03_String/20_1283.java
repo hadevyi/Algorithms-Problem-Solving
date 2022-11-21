@@ -2,13 +2,13 @@ import java.io.*;
 import java.util.*;
 /**
  * 1. 문제정보
- *  - 제목 :
- *  - 번호 :
- *  - 링크 :
+ *  - 제목 : 단축키 지정
+ *  - 번호 : 1283
+ *  - 링크 : https://www.acmicpc.net/problem/1283
  *  2. 풀이핵심
- *  -
+ *  - 문자열의 조건을 구현하면서, 이전과 겹치지 않도록 확인함.
  * 3. 풀이후기
- *  -
+ *  - 조건마다 다르게 구현하면서 변수를 최소화할 수 있도록 고민하였음.
  */
 public class Main {
 
@@ -18,7 +18,6 @@ public class Main {
     static StringBuffer sb = new StringBuffer(); // 출력할 버퍼
 
     public static void main(String[] args) throws Exception {
-        System.setIn(new FileInputStream("src/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         T = Integer.parseInt(br.readLine());
@@ -27,9 +26,11 @@ public class Main {
 
         for (int t = 0;t < T;t++) {
             strList[t] = br.readLine();
+            // 단축키가 된 idx를 찾아오는 함수로 idx를 초기화
             int idx = checkChar(strList[t]);
             if (idx == -1) sb.append(strList[t]);
             else {
+                // substring을 활용해 필요한 부분 앞뒤로는 그대로 가져오며, [] 기호를 추가함
                 sb.append(strList[t].substring(0, idx)).append("[").append(strList[t].charAt(idx)).append("]");
                 if (idx < strList[t].length() - 1) sb.append(strList[t].substring(idx + 1));
             }
@@ -66,6 +67,20 @@ public class Main {
         }
 
         // 2번 조건 확인
+        Len = str.length();
+        for (int len = 1;len < Len;len++) {
+            char ch = str.charAt(len);
+            if (ch == ' ') {
+                len++;
+                continue;
+            }
+
+            ch = ('a' <= ch && ch <= 'z') ? ch : (char) (ch + ('a' - 'A'));
+            if (!alpha[ch - 'a']) {
+                alpha[ch-'a'] = true;
+                return len;
+            }
+        }
 
 
         return -1;
