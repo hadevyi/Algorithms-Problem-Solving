@@ -34,8 +34,8 @@ public class Solution {
                 if (st.hasMoreTokens()) rightIdx = Integer.parseInt(st.nextToken());
 
                 nodes[index].data = data;
-                nodes[index].left = nodes[leftIdx];
-                nodes[index].right = nodes[rightIdx];
+                if (leftIdx != 0) nodes[index].left = nodes[leftIdx];
+                if (rightIdx != 0) nodes[index].right = nodes[rightIdx];
             }
 
             sb.append(checkTree(nodes[1]) ? "1" : "0");
@@ -46,8 +46,8 @@ public class Solution {
     }
 
     public static boolean checkTree(Node node) {
-        if (node.left.data == null && node.right.data == null) return isNum(node.data); // 리프 노드인 경우
-        if (node.right.data == null) return false; // 피연산자의 개수가 부족한 경우
+        if (node.left == null && node.right == null) return isNum(node.data); // 리프 노드인 경우
+        if (node.right == null) return false; // 피연산자의 개수가 부족한 경우
 
         boolean leftCheck = checkTree(node.left);
         boolean rootCheck = !isNum(node.data);
