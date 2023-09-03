@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Solution {
 
     private final static int MAX_NODE = 10000;
     private final static int ADD_HEAD = 1;
@@ -13,7 +13,7 @@ public class Main {
     private final static int PRINT_REVERSE = 7;
     private final static int END = 99;
 
-    private final static DoubleLinkedList doubleLinkedList = new DoubleLinkedList();
+    private final static UserSolution userSolution = new UserSolution();
 
     private static BufferedReader br;
 
@@ -31,33 +31,33 @@ public class Main {
             switch(cmd) {
                 case ADD_HEAD :
                     data = Integer.parseInt(st.nextToken());
-                    doubleLinkedList.addNode2Head(data);
+                    userSolution.addNode2Head(data);
                     break;
 
                 case ADD_TAIL :
                     data = Integer.parseInt(st.nextToken());
-                    doubleLinkedList.addNode2Tail(data);
+                    userSolution.addNode2Tail(data);
                     break;
 
                 case ADD_NUM :
                     data = Integer.parseInt(st.nextToken());
                     num = Integer.parseInt(st.nextToken());
-                    doubleLinkedList.addNode2Num(data, num);
+                    userSolution.addNode2Num(data, num);
                     break;
 
                 case FIND :
                     data = Integer.parseInt(st.nextToken());
-                    num = doubleLinkedList.findNode(data);
+                    num = userSolution.findNode(data);
                     System.out.println(num);
                     break;
 
                 case REMOVE :
                     data = Integer.parseInt(st.nextToken());
-                    doubleLinkedList.removeNode(data);
+                    userSolution.removeNode(data);
                     break;
 
                 case PRINT :
-                    ret = doubleLinkedList.getList(output);
+                    ret = userSolution.getList(output);
                     for(int i = 0; i < ret; i++) {
                         System.out.print(output[i] + " ");
                     }
@@ -65,7 +65,7 @@ public class Main {
                     break;
 
                 case PRINT_REVERSE :
-                    ret = doubleLinkedList.getReversedList(output);
+                    ret = userSolution.getReversedList(output);
                     for(int i = 0; i < ret; i++) {
                         System.out.print(output[i] + " ");
                     }
@@ -87,7 +87,7 @@ public class Main {
 
         for (int tc = 1; tc <= TC; tc++) {
             System.out.println("#" + tc);
-            doubleLinkedList.init();
+            userSolution.init();
             run();
             System.out.println();
         }

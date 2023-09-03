@@ -3,9 +3,9 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Solution {
 
-    private final static BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch();
+    private final static UserSolution userSolution = new UserSolution();
 
     private static BufferedReader br;
 
@@ -30,7 +30,7 @@ public class Main {
             }
         }
 
-        breadthFirstSearch.bfs_init(N, map);
+        userSolution.bfs_init(N, map);
 
         str = br.readLine();
         M = Integer.parseInt(str);
@@ -44,7 +44,7 @@ public class Main {
             y2 = Integer.parseInt(st.nextToken());
             ans = Integer.parseInt(st.nextToken());
 
-            dist = breadthFirstSearch.bfs(x1, y1, x2, y2);
+            dist = userSolution.bfs(x1, y1, x2, y2);
 
             if(dist != ans) {
                 score = 0;

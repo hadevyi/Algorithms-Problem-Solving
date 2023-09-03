@@ -1,4 +1,4 @@
-public class BreadthFirstSearch {
+public class UserSolution {
 
     public int N;
     public Queue queue;

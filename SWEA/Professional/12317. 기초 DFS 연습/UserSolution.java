@@ -1,4 +1,4 @@
-public class DepthFirstSearch {
+public class UserSolution {
 
     public Node[] nodes;
     public int MAX_COUNT = 100;

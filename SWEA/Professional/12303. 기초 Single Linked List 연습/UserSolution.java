@@ -1,4 +1,4 @@
-public class SingleLinkedList {
+public class UserSolution {
     private final static int MAX_NODE = 10000;
 
     private Node[] node = new Node[MAX_NODE];

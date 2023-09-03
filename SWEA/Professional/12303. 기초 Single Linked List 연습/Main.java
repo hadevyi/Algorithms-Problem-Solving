@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Solution {
 
     private final static int MAX_NODE = 10000;
     private final static int ADD_HEAD = 1;
@@ -11,7 +11,7 @@ public class Main {
     private final static int PRINT = 5;
     private final static int END = 99;
 
-    private final static SingleLinkedList singleLinkedList = new SingleLinkedList();
+    private final static UserSolution userSolution = new UserSolution();
 
     private static BufferedReader br;
 
@@ -30,27 +30,27 @@ public class Main {
             switch(cmd) {
                 case ADD_HEAD :
                     data = Integer.parseInt(st.nextToken());
-                    singleLinkedList.addNode2Head(data);
+                    userSolution.addNode2Head(data);
                     break;
 
                 case ADD_TAIL :
                     data = Integer.parseInt(st.nextToken());
-                    singleLinkedList.addNode2Tail(data);
+                    userSolution.addNode2Tail(data);
                     break;
 
                 case ADD_NUM :
                     data = Integer.parseInt(st.nextToken());
                     num = Integer.parseInt(st.nextToken());
-                    singleLinkedList.addNode2Num(data, num);
+                    userSolution.addNode2Num(data, num);
                     break;
 
                 case REMOVE :
                     data = Integer.parseInt(st.nextToken());
-                    singleLinkedList.removeNode(data);
+                    userSolution.removeNode(data);
                     break;
 
                 case PRINT :
-                    ret = singleLinkedList.getList(output);
+                    ret = userSolution.getList(output);
                     for(int i = 0; i < ret; i++) {
                         System.out.print(output[i] + " ");
                     }
@@ -72,7 +72,7 @@ public class Main {
 
         for (int tc = 1; tc <= TC; tc++) {
             System.out.println("#" + tc);
-            singleLinkedList.init();
+            userSolution.init();
             run();
             System.out.println();
         }

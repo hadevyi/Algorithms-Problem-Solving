@@ -1,14 +1,14 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Solution {
 
     private final static int MAX_N = 40;
     private final static int MAX_K = 98;
     private final static int MIN_N = 2;
     private final static int MAX_CHILD = 5;
 
-    private final static DepthFirstSearch depthFirstSearch = new DepthFirstSearch();
+    private final static UserSolution userSolution = new UserSolution();
 
     private static BufferedReader br;
 
@@ -82,7 +82,7 @@ public class Main {
             seed = Long.parseLong(st.nextToken());
 
             makeTree(N-1);
-            depthFirstSearch.dfs_init(N, path);
+            userSolution.dfs_init(N, path);
 
             score = 100;
             for(int i = 1; i <= Q; i++) {
@@ -92,7 +92,7 @@ public class Main {
                 K = Integer.parseInt(st.nextToken());
                 ans = Integer.parseInt(st.nextToken());
 
-                ret = depthFirstSearch.dfs(K);
+                ret = userSolution.dfs(K);
 
                 if(ret != ans) score = 0;
             }

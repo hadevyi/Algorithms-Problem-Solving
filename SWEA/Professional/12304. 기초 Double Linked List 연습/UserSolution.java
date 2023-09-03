@@ -1,4 +1,4 @@
-public class DoubleLinkedList {
+public class UserSolution {
 
     private final static int MAX_NODE = 10000;
 

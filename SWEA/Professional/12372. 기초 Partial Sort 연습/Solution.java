@@ -1,11 +1,11 @@
 import java.io.*;
 
-public class Main {
+public class Solution {
 
     private final static int MAX_INPUT = 100000;
     private final static int MAX_NUM = 30000;
 
-    private final static PartialSort partialSort = new PartialSort();
+    private final static UserSolution userSolution = new UserSolution();
 
     private static BufferedReader br;
 
@@ -38,9 +38,9 @@ public class Main {
             makeInput(userNum);
 
             for(int j = 0; j < userNum; j++) {
-                partialSort.addUser(uID++, input[j]);
+                userSolution.addUser(uID++, input[j]);
             }
-            ret = partialSort.getTop10(result);
+            ret = userSolution.getTop10(result);
 
             sum = 0;
             for(int j = 0; j < ret; j++) {
@@ -64,7 +64,7 @@ public class Main {
         TC = Integer.parseInt(str);
 
         for (int tc = 1; tc <= TC; tc++) {
-            partialSort.init();
+            userSolution.init();
             System.out.println("#" + tc + " " + run());
         }
     }

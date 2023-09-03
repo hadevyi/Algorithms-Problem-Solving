@@ -1,4 +1,4 @@
-public class PartialSort {
+public class UserSolution {
 
     public int SIZE, MAX_SIZE = 100000;
     public Data[] HEAP;
