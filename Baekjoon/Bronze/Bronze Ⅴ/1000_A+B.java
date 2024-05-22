@@ -1,8 +1,5 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
-
+import java.io.*;
+import java.util.*;
 /**
  * 1. 문제정보
  *  - 제목 : A+B
