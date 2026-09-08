@@ -1,0 +1,37 @@
+name: 일반 작업
+description: 일반 작업의 목적과 완료 기준을 기록합니다.
+title: "[작업] "
+labels:
+- type:작업
+body:
+- type: markdown
+  attributes:
+    value: 같은 목적의 열린 Issue를 먼저 확인하고 저장소 정책에 맞는 추가 라벨을 지정해 주세요.
+- type: textarea
+  id: purpose
+  attributes:
+    description: 목적에 관한 내용을 구체적으로 적어 주세요.
+    label: 목적
+  validations:
+    required: true
+- type: textarea
+  id: work-details
+  attributes:
+    description: 작업 내용에 관한 내용을 구체적으로 적어 주세요.
+    label: 작업 내용
+  validations:
+    required: true
+- type: textarea
+  id: completion-criteria
+  attributes:
+    description: 완료 기준에 관한 내용을 구체적으로 적어 주세요.
+    label: 완료 기준
+  validations:
+    required: true
+- type: textarea
+  id: references
+  attributes:
+    description: 참고 자료에 관한 내용을 구체적으로 적어 주세요.
+    label: 참고 자료
+  validations:
+    required: false

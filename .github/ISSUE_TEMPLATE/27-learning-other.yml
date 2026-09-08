@@ -1,0 +1,61 @@
+name: 기타 학습
+description: 기타 학습의 목적과 목표를 기록합니다.
+title: "[학습][기타] "
+labels:
+- type:학습
+- source:기타
+body:
+- type: markdown
+  attributes:
+    value: 같은 목적의 열린 Issue를 먼저 확인하고 저장소 정책에 맞는 추가 라벨을 지정해 주세요.
+- type: input
+  id: learning-title
+  attributes:
+    description: 자료나 과정의 정확한 이름을 적어 주세요.
+    label: 학습 제목
+  validations:
+    required: true
+- type: input
+  id: learning-source
+  attributes:
+    description: 자료 유형에 관한 내용을 구체적으로 적어 주세요.
+    label: 자료 유형
+    value: 기타
+  validations:
+    required: true
+- type: input
+  id: related-link
+  attributes:
+    description: 관련 링크가 없으면 없음이라고 적어 주세요.
+    label: 관련 링크
+  validations:
+    required: true
+- type: textarea
+  id: learning-purpose
+  attributes:
+    description: 학습 목적에 관한 내용을 구체적으로 적어 주세요.
+    label: 학습 목적
+  validations:
+    required: true
+- type: textarea
+  id: learning-goal
+  attributes:
+    description: 학습 목표에 관한 내용을 구체적으로 적어 주세요.
+    label: 학습 목표
+  validations:
+    required: true
+- type: input
+  id: start-date
+  attributes:
+    description: 시작일에 관한 내용을 구체적으로 적어 주세요.
+    label: 시작일
+    placeholder: YYYY-MM-DD
+  validations:
+    required: true
+- type: textarea
+  id: expected-output
+  attributes:
+    description: 예상 결과물에 관한 내용을 구체적으로 적어 주세요.
+    label: 예상 결과물
+  validations:
+    required: false
